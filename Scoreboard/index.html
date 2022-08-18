@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <style>
+            @import url('http://fonts.cdnfonts.com/css/cursed-timer-ulil');
+            .plus1, .plus2, .plus3{ cursor: pointer; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="home">
+                <h3 class="titlehome">HOME</h3>
+                <div class="background">
+                    <h1 id="count-el1">0</h1>
+                </div>
+                <div class="rectangle4">
+                    <p class="plus1" onclick="increment1()">+1</p>                   
+                </div>
+                <div class="rectangle5">
+                    <p class="plus2" onclick="increment2()">+2</p>
+                </div>
+                <div class="rectangle6">
+                    <p class="plus3" onclick="increment3()">+3</p>
+                </div>
+            </div>
+            <div class="guest">
+                <h3 class="titleguest">GUEST</h3>
+                <div class="background2">
+                    <h1 id="count-el2">0</h1>
+                </div>
+                <div class="rectangle42">
+                    <p class="plus1" onclick="increment12()">+1</p>                   
+                </div>
+                <div class="rectangle52">
+                    <p class="plus2" onclick="increment22()">+2</p>
+                </div>
+                <div class="rectangle62">
+                    <p class="plus3" onclick="increment32()">+3</p>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
